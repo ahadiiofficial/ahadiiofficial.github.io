@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Abdul Ahad</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <header>
+        <h1>Abdul Ahad</h1>
+        <p>Web Developer</p>
+        <nav class="main-nav">
+    <div class="nav-left">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <h1 class="logo">Abdul Ahad</h1>
+
+    <div class="nav-right">
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form target="_blank" action="https://formsubmit.co/ourlaptop02@gmail.com" method="post">
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" placeholder="Enter Your Name" required maxlength="25">
+                <br>
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="Enter Your Email" required maxlength="30">
+                <br>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Enter Your Message" required
+                    maxlength="500"></textarea>
+                <br>
+                <button type="submit">Send</button>
+            </form>
+            <button id="mode-toggle" class="mode-btn">🌙</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 | All rights reserved</p>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>
