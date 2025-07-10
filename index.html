@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Abdul Ahad</h1>
+        <p>Web Developer</p>
+       <nav class="main-nav">
+    <div class="nav-left">
+        <a href="index.html">Home</a>
+        <a href="nav/about.html">About</a>
+    </div>
+
+    <h1 class="logo">Abdul Ahad</h1>
+
+    <div class="nav-right">
+        <a href="nav/projects.html">Projects</a>
+        <a href="nav/contact.html">Contact</a>
+    </div>
+</nav>
+
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div>
+                <img src="img/image.png" alt="My Picture" width="150">
+                <p>
+                    My name is <strong>Abdul Ahad</strong>, and I am a passionate
+                    <strong>Web Developer</strong> with a strong interest in building
+                    clean, responsive, and user-friendly websites. I enjoy turning ideas
+                    into reality through code and continuously improving my skills to stay
+                    updated with the latest web technologies.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div>
+                <h3>Project 1</h3>
+                <ul>
+                    <li>Personal Portfolio Website – A responsive portfolio site showcasing my bio, skills, and projects
+                        using HTML, CSS, and JavaScript.</li>
+                </ul>
+                <h3>Project 2</h3>
+                <ul>
+                    <li>To-Do List App – A simple task management web app with add, delete, and complete features using
+                        HTML, CSS, and JavaScript.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form target="_blank" action="https://formsubmit.co/ourlaptop02@gmail.com" method="post">
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" placeholder="Enter Your Name" required maxlength="25">
+                <br>
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="Enter Your Email" required maxlength="30">
+                <br>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Enter Your Message" required
+                    maxlength="500"></textarea>
+                <br>
+                <button type="submit">Send</button>
+            </form>
+            <button id="mode-toggle" class="mode-btn">🌙</button>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; | All rights reserved</p>
+        <p>
+            <a href="https://youtube.com/@ahadiiofficial" target="_blank">YouTube</a> |
+            <a href="https://tiktok.com/@freefirepakiastan" target="_blank">TikTok</a>
+        </p>
+
+
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
